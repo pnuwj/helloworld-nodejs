@@ -3,7 +3,7 @@ pipeline {
   stages { 
     stage ('Say Hello') {
       steps {
-        echo 'Bonjour tout le monde!'
+        echo 'Hello world!'
         sh 'java -version'
       }
     }
