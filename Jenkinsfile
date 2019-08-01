@@ -43,6 +43,8 @@ pipeline {
       }
       input {
         message "Should we continue?"
+        submitter "csphils"
+        submitterParameter "APPROVER"
       }
       steps {
         echo "Continuing with deployment"
