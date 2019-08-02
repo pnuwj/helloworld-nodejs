@@ -1,5 +1,5 @@
 pipeline {
-  agent none
+  agent { label 'nodejs-app' }
   options { 
     buildDiscarder(logRotator(numToKeepStr: '2'))
     skipDefaultCheckout true
